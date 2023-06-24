@@ -7,6 +7,7 @@ import {
   Stack,
   createStyles,
 } from '@mantine/core';
+import { useRouter } from 'next/navigation';
 
 const useStyles = createStyles((theme: MantineTheme) => ({
   root: {
@@ -33,13 +34,19 @@ const useStyles = createStyles((theme: MantineTheme) => ({
 
 export default function Home() {
   const { classes } = useStyles();
+  const router = useRouter();
   return (
     <>
       <BackgroundImage src='/home_bg.png' className={classes.root}>
         <Stack align='center' justify='center' spacing='xl' mx='auto' my='auto'>
           <Image maw={480} radius='md' src='/ex-logo.svg' alt='ex-logo.svg' />
           <Group>
-            <Button className={classes.button}>WORKOUTS</Button>
+            <Button
+              className={classes.button}
+              onClick={() => router.push('workouts')}
+            >
+              WORKOUTS
+            </Button>
             <Button className={classes.button}>HISTORY</Button>
           </Group>
         </Stack>
