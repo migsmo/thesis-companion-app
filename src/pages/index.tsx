@@ -9,6 +9,7 @@ import {
 } from '@mantine/core';
 import { useRouter } from 'next/navigation';
 
+
 const useStyles = createStyles((theme: MantineTheme) => ({
   root: {
     height: '100vh',

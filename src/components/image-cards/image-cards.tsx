@@ -41,6 +41,7 @@ const useStyles = createStyles((theme) => ({
     position: 'absolute',
     bottom: 8,
     right: 16,
+    textAlign: "right"
   },
 }));
 
