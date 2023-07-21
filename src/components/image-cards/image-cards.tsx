@@ -1,9 +1,13 @@
 import { Container, Paper, Title, createStyles, rem } from '@mantine/core';
+import { link } from 'fs';
+import router from 'next/router';
 
 const useStyles = createStyles((theme) => ({
   root: {
     background: 'linear-gradient(45deg, #0085FF, #00278B)',
     padding: '2px',
+    borderRadius: '6px',
+    cursor: 'pointer'
   },
   card: {
     left: '0',
@@ -48,13 +52,18 @@ const useStyles = createStyles((theme) => ({
 interface CardProps {
   image: string;
   title: string;
+  link: string;
 }
 
-function ImageCards({ image, title }: CardProps) {
+const handleLink = (link: string) => {
+    router.push(link)
+}
+
+function ImageCards({ image, title, link }: CardProps) {
   const { classes } = useStyles();
 
   return (
-    <Container className={classes.root}>
+    <Container className={classes.root} onClick={() => handleLink(link)}>
       <Paper
         shadow='md'
         p='xl'

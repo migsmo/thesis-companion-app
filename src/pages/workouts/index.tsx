@@ -11,26 +11,9 @@ import {
 import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
+import Exercises from "../../../data/exercises.json"
 
-const exercises = [
-  { name: "Sumo Squat", target: "Lower Body" },
-  { name: "Static Lunge (L)", target: "Lower Body" },
-  { name: "Static Lunge (R)", target: "Lower Body" },
-  { name: "Elbow Planks", target: "Core" },
-  { name: "Side Planks (L)", target: "Core" },
-  { name: "Side Planks (R)", target: "Core" },
-  { name: "Superman Hold", target: "Upper Body" },
-  { name: "High Plank", target: "Core" },
-  { name: "Glute Bridge", target: "Lower Body" },
-  { name: "Single Leg Glute Bridge (L)", target: "Lower Body" },
-  { name: "Single Leg Glute Bridge (R)", target: "Lower Body" },
-  { name: "Straight Bridge", target: "Lower Body" },
-  { name: "Easy Side Planks (L)", target: "Core" },
-  { name: "Easy Side Planks (R)", target: "Core" },
-  { name: "Bird Dog (L)", target: "Lower Body" },
-  { name: "Bird Dog (R)", target: "Lower Body" },
-  { name: "Pushup Hold", target: "Upper Body" },
-];
+const exercises = Exercises
 
 const useStyles = createStyles((theme: MantineTheme) => ({
   root: {
@@ -82,10 +65,6 @@ function Workouts() {
 
   const [target, setTarget] = useState("Core");
 
-  const changeTarget = (newTarget: string): void => {
-    console.log(`New target: ${newTarget}`);
-  };
-
   return (
     <>
       <Container className={classes.root} fluid>
@@ -109,12 +88,12 @@ function Workouts() {
           </Group>
         </UnstyledButton>
 
-        <Grid className={classes.grid} gutter={50}>
+        <Grid className={classes.grid} gutter={30}>
           {exercises
             .filter((exercise) => exercise.target === target)
             .map((exercise, index) => (
               <Grid.Col xl={3} sm={4} xs={6} key={index}>
-                <ImageCards image="/elbow-planks.png" title={exercise.name} />
+                <ImageCards image="/elbow-planks.png" title={exercise.name} link={exercise.link} />
               </Grid.Col>
             ))}
         </Grid>
