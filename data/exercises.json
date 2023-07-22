@@ -1,0 +1,83 @@
+[
+  {
+    "name": "Sumo Squat",
+    "target": "Lower Body",
+    "link": "/exercise/sumo_squat"
+  },
+  {
+    "name": "Static Lunge L",
+    "target": "Lower Body",
+    "link": "/exercise/static_lunge_l"
+  },
+  {
+    "name": "Static Lunge R",
+    "target": "Lower Body",
+    "link": "/exercise/static_lunge_r"
+  },
+  {
+    "name": "Elbow Planks",
+    "target": "Core",
+    "link": "/exercise/elbow_planks"
+  },
+  {
+    "name": "Side Planks L",
+    "target": "Core",
+    "link": "/exercise/side_planks_l"
+  },
+  {
+    "name": "Side Planks R",
+    "target": "Core",
+    "link": "/exercise/side_planks_r"
+  },
+  {
+    "name": "Superman Hold",
+    "target": "Upper Body",
+    "link": "/exercise/superman_hold"
+  },
+  { "name": "High Plank", "target": "Core", "link": "/exercise/high_plank" },
+  {
+    "name": "Glute Bridge",
+    "target": "Lower Body",
+    "link": "/exercise/glute_bridge"
+  },
+  {
+    "name": "Single Leg Glute Bridge L",
+    "target": "Lower Body",
+    "link": "/exercise/single_leg_glute_bridge_l"
+  },
+  {
+    "name": "Single Leg Glute Bridge R",
+    "target": "Lower Body",
+    "link": "/exercise/single_leg_glute_bridge_r"
+  },
+  {
+    "name": "Straight Bridge",
+    "target": "Lower Body",
+    "link": "/exercise/straight_bridge"
+  },
+  {
+    "name": "Easy Side Planks L",
+    "target": "Core",
+    "link": "/exercise/easy_side_planks_l"
+  },
+  {
+    "name": "Easy Side Planks R",
+    "target": "Core",
+    "link": "/exercise/easy_side_planks_r"
+  },
+  {
+    "name": "Bird Dog L",
+    "target": "Lower Body",
+    "link": "/exercise/bird_dog_l"
+  },
+  {
+    "name": "Bird Dog R",
+    "target": "Lower Body",
+    "link": "/exercise/bird_dog_r"
+  },
+  {
+    "name": "Pushup Hold",
+    "target": "Upper Body",
+    "link": "/exercise/pushup_hold"
+  }
+]
