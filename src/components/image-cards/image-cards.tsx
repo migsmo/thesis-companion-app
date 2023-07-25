@@ -21,10 +21,9 @@ const useStyles = createStyles((theme) => ({
     // },
 
     borderRadius: '5px',
-    backgroundImage: `linear-gradient(0deg, #00244bff 0%, #001c3a00 100%), url('assets/rectangle64.png')`,
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
-    backgroundSize: 'auto, cover',
+    backgroundSize: 'auto, contain',
     margin: 0,
     position: 'relative',
   },

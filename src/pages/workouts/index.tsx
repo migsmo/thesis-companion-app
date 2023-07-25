@@ -113,7 +113,7 @@ function Workouts() {
             .map((exercise, index) => (
               <Grid.Col xl={3} sm={4} xs={6} key={index}>
                 <ImageCards
-                  image="/elbow-planks.png"
+                  image={exercise.photo}
                   title={exercise.name}
                   link={exercise.link}
                 />
@@ -133,7 +133,7 @@ function Workouts() {
               onClick={() => setTarget("Upper Body")}
               className={classes.target}
             >
-              <img src="./upper-icon.png" className={classes.selectedIcon} />
+              <img src="./upper-white.png" className={classes.selectedIcon} />
             </Box>
           </Box>
         ) : (
@@ -171,7 +171,7 @@ function Workouts() {
               onClick={() => setTarget("Lower Body")}
               className={classes.target}
             >
-              <img src="./lower-icon.png" className={classes.selectedIcon} />
+              <img src="./lower-white.png" className={classes.selectedIcon} />
             </Box>
           </Box>
         ) : (
