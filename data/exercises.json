@@ -3,102 +3,119 @@
       "name": "Sumo Squat",
       "target": "Lower Body",
       "link": "/exercise/sumo_squat",
-      "photo": "/exercises/sumo_squat.png"
+      "photo": "/exercises/sumo_squat.png",
+      "dummy": "/dummy/sumo_squat_dummy.png"
     },
     {
       "name": "Static Lunge L",
       "target": "Lower Body",
       "link": "/exercise/static_lunge_l",
-      "photo": "/exercises/static_lunge_l.png"
+      "photo": "/exercises/static_lunge_l.png",
+      "dummy": "/dummy/static_lunge_l_dummy.png"
     },
     {
       "name": "Static Lunge R",
       "target": "Lower Body",
       "link": "/exercise/static_lunge_r",
-      "photo": "/exercises/static_lunge_r.png"
+      "photo": "/exercises/static_lunge_r.png",
+      "dummy": "/dummy/static_lunge_r_dummy.png"
     },
     {
       "name": "Elbow Planks",
       "target": "Core",
       "link": "/exercise/elbow_planks",
-      "photo": "/exercises/elbow_planks.png"
+      "photo": "/exercises/elbow_planks.png",
+      "dummy": "/dummy/elbow_planks_dummy.png"
     },
     {
       "name": "Side Planks L",
       "target": "Core",
       "link": "/exercise/side_planks_l",
-      "photo": "/exercises/side_planks_l.png"
+      "photo": "/exercises/side_planks_l.png",
+      "dummy": "/dummy/side_planks_l_dummy.png"
     },
     {
       "name": "Side Planks R",
       "target": "Core",
       "link": "/exercise/side_planks_r",
-      "photo": "/exercises/side_planks_r.png"
+      "photo": "/exercises/side_planks_r.png",
+      "dummy": "/dummy/side_planks_r_dummy.png"
     },
     {
       "name": "Superman Hold",
       "target": "Upper Body",
       "link": "/exercise/superman_hold",
-      "photo": "/exercises/superman_hold.png"
+      "photo": "/exercises/superman_hold.png",
+      "dummy": "/dummy/superman_hold_dummy.png"
     },
     {
       "name": "High Plank",
       "target": "Core",
       "link": "/exercise/high_plank",
-      "photo": "/exercises/high_plank.png"
+      "photo": "/exercises/high_plank.png",
+      "dummy": "/dummy/high_plank_dummy.png"
     },
     {
       "name": "Glute Bridge",
       "target": "Lower Body",
       "link": "/exercise/glute_bridge",
-      "photo": "/exercises/glute_bridge.png"
+      "photo": "/exercises/glute_bridge.png",
+      "dummy": "/dummy/glute_bridge_dummy.png"
     },
     {
       "name": "Single Leg Glute Bridge L",
       "target": "Lower Body",
       "link": "/exercise/single_leg_glute_bridge_l",
-      "photo": "/exercises/single_leg_glute_bridge_l.png"
+      "photo": "/exercises/single_leg_glute_bridge_l.png",
+      "dummy": "/dummy/single_leg_glute_bridge_l_dummy.png"
     },
     {
       "name": "Single Leg Glute Bridge R",
       "target": "Lower Body",
       "link": "/exercise/single_leg_glute_bridge_r",
-      "photo": "/exercises/single_leg_glute_bridge_r.png"
+      "photo": "/exercises/single_leg_glute_bridge_r.png",
+      "dummy": "/dummy/single_leg_glute_bridge_r_dummy.png"
     },
     {
       "name": "Straight Bridge",
       "target": "Lower Body",
       "link": "/exercise/straight_bridge",
-      "photo": "/exercises/straight_bridge.png"
+      "photo": "/exercises/straight_bridge.png",
+      "dummy": "/dummy/straight_bridge_dummy.png"
     },
     {
       "name": "Easy Side Planks L",
       "target": "Core",
       "link": "/exercise/easy_side_planks_l",
-      "photo": "/exercises/easy_side_planks_l.png"
+      "photo": "/exercises/easy_side_planks_l.png",
+      "dummy": "/dummy/easy_side_planks_l_dummy.png"
     },
     {
       "name": "Easy Side Planks R",
       "target": "Core",
       "link": "/exercise/easy_side_planks_r",
-      "photo": "/exercises/easy_side_planks_r.png"
+      "photo": "/exercises/easy_side_planks_r.png",
+      "dummy": "/dummy/easy_side_planks_r_dummy.png"
     },
     {
       "name": "Bird Dog L",
       "target": "Lower Body",
       "link": "/exercise/bird_dog_l",
-      "photo": "/exercises/bird_dog_l.png"
+      "photo": "/exercises/bird_dog_l.png",
+      "dummy": "/dummy/bird_dog_l_dummy.png"
     },
     {
       "name": "Bird Dog R",
       "target": "Lower Body",
       "link": "/exercise/bird_dog_r",
-      "photo": "/exercises/bird_dog_r.png"
+      "photo": "/exercises/bird_dog_r.png",
+      "dummy": "/dummy/bird_dog_r_dummy.png"
     },
     {
       "name": "Pushup Hold",
       "target": "Upper Body",
       "link": "/exercise/pushup_hold",
-      "photo": "/exercises/pushup_hold.png"
+      "photo": "/exercises/pushup_hold.png",
+      "dummy": "/dummy/pushup_hold_dummy.png"
     }
-  ]  
+]

@@ -4,6 +4,7 @@ import {
   UnstyledButton,
   Title,
   createStyles,
+  Flex,
 } from "@mantine/core";
 import { useRouter } from "next/router";
 import PlayArrowIcon from "@mui/icons-material/PlayArrow";
@@ -72,13 +73,27 @@ const Exercise = () => {
             </Group>
           </UnstyledButton>
         </Container>
+        <Flex justify="center" align="center" direction="row">
+          <img
+            src={exercise?.dummy}
+            style={{
+              display: "flex",
+              width: "100%",
+              height: "auto",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "auto, contain",
+              maxWidth: "1000px",
+            }}
+          />
+        </Flex>
 
         <div
           style={{
             alignContent: "bottom",
             position: "absolute",
             bottom: "0",
-            width: "100%"
+            width: "100%",
           }}
         >
           <div className={classes.target}> {exercise?.target}</div>
